@@ -73,7 +73,7 @@ If you want to run the Native iOS App tests on Sauce Labs real devices then you 
     // If using the EU DC
     mvn clean install -DtestngXmlFile=testng_appium_ios.xml -Dregion=eu
     
-The tests will be executed on a iPhone 8.
+The tests will be executed on on an any available iPhone device.
 > NOTE: Make sure you are in the folder `SauceAppiumSample` when you execute this command
 
 ## Run Web App tests on Sauce Labs iOS real devices in the Sauce Labs Platform
@@ -85,7 +85,7 @@ If you want to run the Web App tests on Sauce Labs real iOS devices then you can
     // If using the EU DC
     mvn clean install -DtestngXmlFile=testng_appium_ios_web.xml -Dregion=eu
     
-The tests will be executed on a iPhone 8.
+The tests will be executed on on an any available iPhone device
 > NOTE: Make sure you are in the folder `SauceAppiumSample` when you execute this command
 
 ## Run Native App tests on Sauce Labs Android Emulators
