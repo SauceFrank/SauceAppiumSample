@@ -45,7 +45,7 @@ public class SwagRDSiOSTest {
         URL url = new URL(SAUCE_REMOTE_URL);
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
-        capabilities.setCapability("deviceName", "iPhone 12*");
+        capabilities.setCapability("deviceName", "iPhone.*");
 //        capabilities.setCapability("privateDevicesOnly", "true");
         capabilities.setCapability("platformName", "iOS");
         capabilities.setCapability("automationName", "XCuiTest");
