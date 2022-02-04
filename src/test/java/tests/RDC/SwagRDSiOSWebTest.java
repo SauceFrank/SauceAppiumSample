@@ -44,7 +44,7 @@ public class SwagRDSiOSWebTest {
         URL url = new URL(SAUCE_REMOTE_URL);
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
-        capabilities.setCapability("deviceName", "iPhone 8*");
+        capabilities.setCapability("deviceName", "iPhone.*");
         capabilities.setCapability("platformName", "iOS");
         capabilities.setCapability("automationName", "XCuiTest");
         capabilities.setCapability("browserName", "Safari");
